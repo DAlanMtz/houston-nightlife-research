@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Houston Nightlife, 2013–2025 · research publication</title>
+<link rel="canonical" href="https://DAlanMtz.github.io/houston-nightlife-research/">
+<meta property="og:url" content="https://DAlanMtz.github.io/houston-nightlife-research/">
+<meta name="description" content="An eleven-chapter research report on Houston's nightlife filing population: more venues, a smaller typical venue, uneven geography, and the difference between disappearance and closure.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Houston Nightlife, 2013–2025">
+<meta property="og:description" content="More venues, a smaller typical venue: an eleven-chapter research report on Houston's nightlife filing population.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://DAlanMtz.github.io/houston-nightlife-research/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/tokens.css">
+<style>
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--color-paper);color:var(--color-ink);font-family:var(--font-serif);font-size:1.0625rem;line-height:1.7}
+  a{color:var(--color-accent-text);text-decoration-thickness:1px;text-underline-offset:.18em}
+  a:hover{color:var(--color-ink)}
+  ::selection{background:var(--color-accent);color:var(--color-paper)}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--color-accent-text);outline-offset:3px}
+  .hero{background:var(--color-navy);color:var(--color-on-navy);border-bottom:4px solid var(--color-accent);padding:0 var(--gutter)}
+  .hero-inner{max-width:1120px;margin:0 auto;padding:2.5rem 0 3.5rem}
+  .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 2rem;border-bottom:1px solid rgba(247,242,232,.22);padding-bottom:1rem;font-family:var(--font-sans);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--color-on-navy-muted)}
+  h1{font-size:clamp(3.2rem,8vw,6.4rem);line-height:.9;letter-spacing:-.045em;font-weight:600;margin:2.6rem 0 0}
+  h1 em{font-style:italic;font-weight:400;color:var(--color-on-navy-accent)}
+  .year{display:block;font-family:var(--font-mono);font-size:.9rem;letter-spacing:.06em;color:var(--color-on-navy-muted);margin-top:1rem}
+  .deck{max-width:46rem;margin:1.4rem 0 0;font-size:clamp(1.2rem,2vw,1.5rem);line-height:1.45}
+  .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;margin-top:2.6rem;border-top:1px solid rgba(247,242,232,.22);background:rgba(247,242,232,.14)}
+  .stat{background:var(--color-navy);padding:1rem 1rem .9rem 0}
+  .stat b{display:block;font-family:var(--font-mono);font-size:clamp(1.25rem,2.2vw,1.7rem);font-weight:500;color:var(--color-paper)}
+  .stat span{display:block;margin-top:.3rem;font-family:var(--font-sans);font-size:.64rem;line-height:1.4;color:var(--color-on-navy-muted)}
+  .actions{display:flex;flex-wrap:wrap;gap:.7rem 1.4rem;margin-top:2rem;font-family:var(--font-sans);font-size:.78rem}
+  .actions a{display:inline-flex;align-items:center;gap:.45rem;color:var(--color-on-navy-accent);text-decoration:none;border-bottom:1px solid rgba(208,138,95,.5);padding-bottom:.2rem}
+  .actions a.primary{color:var(--color-paper);border-bottom-color:var(--color-paper)}
+  .actions a:hover{color:var(--color-paper)}
+  main{max-width:1120px;margin:0 auto;padding:0 var(--gutter)}
+  .intro{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:clamp(2rem,5vw,4rem);padding:3.5rem 0;border-bottom:var(--rule-hair)}
+  .intro h2{font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.1;margin:0 0 1rem;letter-spacing:-.03em}
+  .intro p{max-width:62ch;margin:0 0 1rem}
+  .side{border-top:2px solid var(--color-accent);padding-top:.8rem;font-family:var(--font-sans);font-size:.76rem;line-height:1.55;color:var(--color-ink-muted)}
+  .side b{display:block;color:var(--color-ink);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.35rem}
+  .paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;padding:2.5rem 0 3rem;border-bottom:var(--rule-hair)}
+  .path{border-top:2px solid var(--color-ink);padding-top:.7rem}
+  .path b{display:block;font-size:1rem;margin-bottom:.25rem}
+  .path span{display:block;font-family:var(--font-sans);font-size:.72rem;line-height:1.5;color:var(--color-ink-muted);margin-bottom:.5rem}
+  .path a{font-family:var(--font-sans);font-size:.74rem;font-weight:600}
+  .status{margin:2.5rem 0 3rem;padding:1rem 1.2rem;background:var(--color-paper-raised);border-top:2px solid var(--color-accent);font-family:var(--font-sans);font-size:.78rem;line-height:1.55}
+  .status b{display:block;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent-text);margin-bottom:.25rem}
+  footer{border-top:2px solid var(--color-ink);padding:1.5rem 0 3rem;font-family:var(--font-sans);font-size:.7rem;line-height:1.55;color:var(--color-ink-muted)}
+  footer p{max-width:75ch;margin:0 0 .5rem}
+  @media (max-width:800px){.intro{grid-template-columns:1fr}.paths{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="top"><span>Research report · Houston, Texas</span><span>Published research edition · 2026-11-15</span></div>
+    <h1>Houston <em>Nightlife</em><span class="year">2013–2025</span></h1>
+    <p class="deck">Growth, thinning, replacement, and the limits of an administrative record.</p>
+    <div class="stats">
+      <div class="stat"><b>805</b><span>annual ever-active venues, 2025</span></div>
+      <div class="stat"><b>$519.1M</b><span>real reported receipts, 2025</span></div>
+      <div class="stat"><b>$361,409</b><span>median real receipts per venue</span></div>
+      <div class="stat"><b>8,445</b><span>venues in the closure panel</span></div>
+    </div>
+    <div class="actions">
+      <a class="primary" href="report/index.html">Read the full report</a>
+      <a href="interactive/index.html">Explore the interactive charts</a>
+      <a href="report/houston-nightlife-full-report.pdf">Download the PDF</a>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="intro">
+    <div>
+      <h2>More venues, a smaller typical venue.</h2>
+      <p>Houston's strict-city nightlife filing population grew from 576 annual ever-active venues in 2013 to 805 in 2025. Combined real reported receipts rose 17%, from $442.9M to $519.1M. The count rose faster, 40%, so receipts per venue fell on average by 16%. The median fell further, 26%, from $486,931 to $361,409.</p>
+      <p>That is the central puzzle. The report does not claim that new venues caused the decline. It shows what the tax record can describe, where the map and the closures become uncertain, and why several promising statistical relationships could not be established.</p>
+      <p>The full report runs through eleven chapters, from the measurement problem to the limits of prediction. The interactive edition covers the charts in Chapters 3, 4 and 6.</p>
+    </div>
+    <div class="side">
+      <b>What the numbers are</b>
+      Reported mixed-beverage taxable receipts: liquor, wine, beer, and cover charges. Not revenue, profit, attendance, or market power.
+      <p></p>
+      <b>Reading time</b>
+      About five minutes for the short version in the report; about an hour for the full evidence trail.
+      <p></p>
+      <b>Disclosure</b>
+      District cells with fewer than three active venues, or where one venue dominates receipts, are suppressed. Suppressed is not zero and not missing data. Named venue-level receipts are not published.
+      <p></p>
+      <b>Status</b>
+      Published research edition. Publicly available on GitHub Pages.
+    </div>
+  </section>
+  <section class="paths">
+    <div class="path"><b>Five minutes</b><span>The short version, six main findings, and a plain-language note on the numbers.</span><a href="report/index.html#start-here">Start here →</a></div>
+    <div class="path"><b>The full narrative</b><span>Eleven chapters, thirteen figures (numbered 2–14; Figure 1 is withheld), methods, limitations and traceability.</span><a href="report/index.html">Read the report →</a></div>
+    <div class="path"><b>Explore the data</b><span>Hover, filter and compare the growth, map, closure and prediction charts.</span><a href="interactive/index.html">Open the charts →</a></div>
+  </section>
+  <div class="status"><b>Disclosure note</b>District cells that could identify an individual venue are suppressed. Suppressed values are not replaced with zero. Named venue-level receipts are not published.</div>
+</main>
+<footer>
+  <p><b>Houston Nightlife, 2013–2025</b> · Published research edition · Publication approved.</p>
+  <p>Source data: Texas Comptroller of Public Accounts; Texas Alcoholic Beverage Commission; City of Houston Open Data Portal; U.S. Census Bureau; U.S. Bureau of Labor Statistics. City of Houston and Census data are used with attribution. Use of these sources does not imply endorsement by the Texas Comptroller of Public Accounts, the Texas Alcoholic Beverage Commission, the City of Houston, the U.S. Census Bureau or the U.S. Bureau of Labor Statistics. Figures are this project's own aggregate statistics, not official statistics of any agency.</p>
+  <p>Fonts: Source Serif 4, Inter and IBM Plex Mono under the SIL Open Font License. Interactive libraries: React, ReactDOM, prop-types and Recharts under the MIT license; htm under the Apache-2.0 license. No UIArc source, CSS, class names or assets were copied.</p>
+</footer>
+</body>
+</html>

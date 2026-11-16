@@ -1,0 +1,391 @@
+{
+  "name": "Houston Nightlife, 2013\u20132025 \u2014 published research edition",
+  "generated_at": "2026-11-16T03:57:31.626332+00:00",
+  "status": "approved public GitHub Pages publication",
+  "site_url": "https://DAlanMtz.github.io/houston-nightlife-research/",
+  "disclosure_policy": "2026-11-11.1",
+  "file_count": 76,
+  "total_bytes": 6792418,
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 692,
+      "sha256": "8701e28d2d3918b48690c06a913b84fc03846a35a911661e397f433ccadf8ea1"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 32,
+      "sha256": "b6e2f00e6fd1605c2f0e6786325faab35d9efed14dcfc13a05f82256acb85f10"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "DISCLOSURE.md",
+      "bytes": 3059,
+      "sha256": "b3633fd8e29762299114751471446022645e87d6c90ea3e6353c9307033f7c90"
+    },
+    {
+      "path": "LICENSES/fonts/ibm-plex-mono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "LICENSES/fonts/inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "LICENSES/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "path": "LICENSES/vendor/Recharts.js.LICENSE.txt",
+      "bytes": 324,
+      "sha256": "64a8b61ef7a17a8601263aa4e12363984c112748a82ebd121826d218f5c3c4f6"
+    },
+    {
+      "path": "LICENSES/vendor/htm.LICENSE",
+      "bytes": 11341,
+      "sha256": "740725f7252e750af735d0028cc534970772f513331e9f68150fede8fb3ce00f"
+    },
+    {
+      "path": "LICENSES/vendor/prop-types.LICENSE",
+      "bytes": 1080,
+      "sha256": "f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce"
+    },
+    {
+      "path": "LICENSES/vendor/react-dom.LICENSE",
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "path": "LICENSES/vendor/react.LICENSE",
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "path": "LICENSES/vendor/recharts-bundled-deps.LICENSE",
+      "bytes": 28500,
+      "sha256": "dc1d0c0f61ea40f75b34d1e0f1c7634c404d602977d1dfca43e2f40532d67bd4"
+    },
+    {
+      "path": "LICENSES/vendor/recharts.LICENSE",
+      "bytes": 1084,
+      "sha256": "2d3aa48a8d1d3b93093680e8e68d3a64cfb590c3ade377ffcaefc69dac7c2ce5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3456,
+      "sha256": "7fcc3c4448d7e340bca4c2ebd4480a16f2c52dac52433d303f7b6e4300290936"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 1987,
+      "sha256": "7a901ac93b083888fba1c04b39bc287b9e8cc78546817f27d6aeaebcc2106fc7"
+    },
+    {
+      "path": "assets/fonts/ibm-plex-mono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "assets/fonts/ibm-plex-mono-normal-400.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac"
+    },
+    {
+      "path": "assets/fonts/ibm-plex-mono-normal-500.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0"
+    },
+    {
+      "path": "assets/fonts/ibm-plex-mono-normal-600.woff2",
+      "bytes": 10120,
+      "sha256": "ad4580d8cb4b5f627c2d18457656732f7f7b070f7837fbc380e08054157e6f6c"
+    },
+    {
+      "path": "assets/fonts/inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "assets/fonts/inter-normal-400-700.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+    },
+    {
+      "path": "assets/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "path": "assets/fonts/source-serif-4-italic-400-600.woff2",
+      "bytes": 129940,
+      "sha256": "011e0ca2bd14c5dff94aa4c61121b8d057b95dbdbb2af621b175fed1059cfd5e"
+    },
+    {
+      "path": "assets/fonts/source-serif-4-normal-400-700.woff2",
+      "bytes": 122168,
+      "sha256": "2a24bad466f09b88b8e9cbc488bf774117c912e66374c57bf4716855849143f8"
+    },
+    {
+      "path": "assets/fonts.css",
+      "bytes": 1157,
+      "sha256": "3189f31794e2a1b16f8719fcdbbe26a0caa78ccea83df6a49c7152785634cb4a"
+    },
+    {
+      "path": "assets/report.css",
+      "bytes": 33016,
+      "sha256": "2915c3cf204e8367aaed9fa9bd590aa3eb505830b762ab1703045d77df4251d5"
+    },
+    {
+      "path": "assets/tokens.css",
+      "bytes": 2558,
+      "sha256": "aa247f35275261e3e93b01dc51263c0dd89b3bdebc1cf8039bc678e9c64165b6"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 227,
+      "sha256": "2cd85196fded3c45c080a3df0e209e3d1c909b73c387181fd93c6cccc6b6cda5"
+    },
+    {
+      "path": "figures/ch3-concentration-mobile.svg",
+      "bytes": 3617,
+      "sha256": "e2d5d624765f0356f7a18387cf926bc10f0ba797fe281eeb134c6c261b455885"
+    },
+    {
+      "path": "figures/ch3-concentration.svg",
+      "bytes": 4637,
+      "sha256": "261b19cbd87182fece4fb404982f138f565bfafd955939f417c6085f93e8ef3d"
+    },
+    {
+      "path": "figures/ch3-headline-median.svg",
+      "bytes": 3577,
+      "sha256": "9e9aef5a2c4453b423e180e852ef25bd3f013e496009d2bff34d0a42a4b625a5"
+    },
+    {
+      "path": "figures/ch3-headline-venues.svg",
+      "bytes": 3929,
+      "sha256": "c8f5beb011eeea4dbd2512f316cf4285bfb039f4da2a8d98c11cbae916e8da26"
+    },
+    {
+      "path": "figures/ch3-trend-mobile.svg",
+      "bytes": 3624,
+      "sha256": "66d7eada20e2dc57f67b5452257708f9d283c6f18874016e3ee4b6500c9c3dfc"
+    },
+    {
+      "path": "figures/ch3-trend.svg",
+      "bytes": 5278,
+      "sha256": "c06ef5a3d463f75ca59c08b954f7144976b3ce113aab30f007418e45a0015cf1"
+    },
+    {
+      "path": "figures/ch4-centre-shift.svg",
+      "bytes": 59607,
+      "sha256": "0e90309f6af7e1b44ae2486d700c52543249c92653a692a6ebf2783cbb2ebf73"
+    },
+    {
+      "path": "figures/ch4-clusters-mobile.svg",
+      "bytes": 3771,
+      "sha256": "94f4f7148d6fa54d2c3070d96bb22cd9703e6be1d4a2c89b1a38cdb621564b7c"
+    },
+    {
+      "path": "figures/ch4-clusters.svg",
+      "bytes": 4297,
+      "sha256": "d72e1cd575b8152fee0df69da70dc891d9dd9c998deba680b035a1f1485bca03"
+    },
+    {
+      "path": "figures/ch4-map-2013.svg",
+      "bytes": 40340,
+      "sha256": "65c46d9662dbb14feed98be1ad568fb25dc94ca6e77156f98f8747e45c59f40f"
+    },
+    {
+      "path": "figures/ch4-map-2019.svg",
+      "bytes": 40246,
+      "sha256": "8fe1a5c4e320449ff5dfe067925c806f84ca60c715f7484986fbb06e39b8466b"
+    },
+    {
+      "path": "figures/ch4-map-2025.svg",
+      "bytes": 40215,
+      "sha256": "394e13f5a313d62545f3da2dbe4f10e35447a730adf8cca4941e88c7ad086a6d"
+    },
+    {
+      "path": "figures/cover-motif.svg",
+      "bytes": 1816,
+      "sha256": "fd8665e3267b5d1a3f7c51c57771ae2e2d49e8a88fc23df4e2d4e7b7a19533ff"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9787,
+      "sha256": "3567a302e783c382b1cf26058349c229ef7e15d4bca38475db44571a82a3f63e"
+    },
+    {
+      "path": "interactive/app.js",
+      "bytes": 84683,
+      "sha256": "8b5ab4a729b0647b457e2227284aa74397c9bfff71c2d66ce25d61b23d0238cb"
+    },
+    {
+      "path": "interactive/data/data.js",
+      "bytes": 102924,
+      "sha256": "eb4cb15f4324c991884937def351f8ffe86e58164982404352ca045d4ac5b5a9"
+    },
+    {
+      "path": "interactive/data/data.json",
+      "bytes": 169237,
+      "sha256": "386ec11c122454472edd2bb8d2413e2c3b8e9c805b8c10745c3a98dac198284e"
+    },
+    {
+      "path": "interactive/data/data.manifest.json",
+      "bytes": 545,
+      "sha256": "67a8d619fa3e85cbb2040ae250d0ffd1f478395256d52aa78c849f87f2c8e200"
+    },
+    {
+      "path": "interactive/houston-nightlife-interactive.html",
+      "bytes": 1669697,
+      "sha256": "7e23a582c6d3195bb786d8f9f3375aef922e74f25bcf0c20a9fc4df8018fd0b0"
+    },
+    {
+      "path": "interactive/index.html",
+      "bytes": 325451,
+      "sha256": "552c41118e7033b91e97c94d8fbcb0c842a34e66641ffb51cc06cb9358afb164"
+    },
+    {
+      "path": "interactive/interactive.css",
+      "bytes": 30702,
+      "sha256": "11450c4fe64a2d3f21da9f2b1c5136fe25bd317be06409534b8e48f6ee8c5907"
+    },
+    {
+      "path": "interactive/vendor/Recharts.js",
+      "bytes": 502910,
+      "sha256": "c0ef6341dcf63d308a00548ae322fabcdf87fb01b46f4aed9c1fd46ff3b08f4c"
+    },
+    {
+      "path": "interactive/vendor/VENDOR.md",
+      "bytes": 1447,
+      "sha256": "ddc205ed152d537aaf63dc31880b3d93b5add4aa026711b4595b304b291f85c4"
+    },
+    {
+      "path": "interactive/vendor/htm.LICENSE",
+      "bytes": 11341,
+      "sha256": "740725f7252e750af735d0028cc534970772f513331e9f68150fede8fb3ce00f"
+    },
+    {
+      "path": "interactive/vendor/htm.umd.js",
+      "bytes": 1364,
+      "sha256": "7a31776e04bd4afde0d4308177d26f377716fcf7e4bd70be590746d6aa594f08"
+    },
+    {
+      "path": "interactive/vendor/prop-types.LICENSE",
+      "bytes": 1080,
+      "sha256": "f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce"
+    },
+    {
+      "path": "interactive/vendor/prop-types.min.js",
+      "bytes": 1722,
+      "sha256": "e653471aba824786aee5dce1bcb5a86ed30c8518d346d2ace0460a5633a9cbdb"
+    },
+    {
+      "path": "interactive/vendor/react-dom.LICENSE",
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "path": "interactive/vendor/react-dom.production.min.js",
+      "bytes": 131835,
+      "sha256": "35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d"
+    },
+    {
+      "path": "interactive/vendor/react.LICENSE",
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "path": "interactive/vendor/react.production.min.js",
+      "bytes": 10751,
+      "sha256": "d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd"
+    },
+    {
+      "path": "interactive/vendor/recharts.LICENSE",
+      "bytes": 1084,
+      "sha256": "2d3aa48a8d1d3b93093680e8e68d3a64cfb590c3ade377ffcaefc69dac7c2ce5"
+    },
+    {
+      "path": "report/figures/lifecycle_threshold_sensitivity.png",
+      "bytes": 74320,
+      "sha256": "7acbe27868ddd34c69dabb4817733ffde490fb7aacba1baeadcfcc28bf419a67"
+    },
+    {
+      "path": "report/figures/phase12_closure_reconciliation.png",
+      "bytes": 49987,
+      "sha256": "a80bd5eccd6487a633bd5fbc9b7b14ec7854788b986295bd2045a6cfaccdd182"
+    },
+    {
+      "path": "report/figures/phase12_prediction_generalization.png",
+      "bytes": 41929,
+      "sha256": "20d21d9b1514a85c2e9eba15219815945abb2a0d2479c857df297cef7dbda5de"
+    },
+    {
+      "path": "report/figures/phase12_q10_pretrend_failure.png",
+      "bytes": 59965,
+      "sha256": "7feb6aa2955c4c57d25179b3e7f9c349c002ac9bafaeff684d76c26995b66f80"
+    },
+    {
+      "path": "report/figures/phase12_successor_comparison.png",
+      "bytes": 45496,
+      "sha256": "055ca2f48132b7138a0c44e8aa582dfbbb865a2527dd3a7f89f78dc4741c2dc8"
+    },
+    {
+      "path": "report/figures/q1_lorenz_2025.png",
+      "bytes": 51753,
+      "sha256": "8820e9f7fc45f64ec2306ec50cf29d99ceee7cccec52c2fd793082ec093ff0b1"
+    },
+    {
+      "path": "report/figures/q3_archetypes.png",
+      "bytes": 136598,
+      "sha256": "7925250bfb06405147095ce83e6f4a4352a46d7cafcd52de12fbe21affd96892"
+    },
+    {
+      "path": "report/figures/re_phase2_district_trajectories_public.png",
+      "bytes": 94056,
+      "sha256": "34c62e290d8a0618cf8570c4161d663c48b3d8670703c405ec6669062683b515"
+    },
+    {
+      "path": "report/figures/re_phase2_geo_concentration.png",
+      "bytes": 67012,
+      "sha256": "23add557c71d92cad806a2566ce1de31211202ce0d943e413b6062433ffb645c"
+    },
+    {
+      "path": "report/houston-nightlife-full-report.pdf",
+      "bytes": 2280631,
+      "sha256": "b229e3181202ec1a1d103236153b738afb720cb419be952fc6fd49dbf4225d35"
+    },
+    {
+      "path": "report/index.html",
+      "bytes": 90451,
+      "sha256": "0ed03a4d9970debb8ec129f27fa8779d7dbccdf97fcdc464be7699fc07cd2073"
+    },
+    {
+      "path": "report/report.css",
+      "bytes": 18345,
+      "sha256": "dab141e88460975d5b93eb43062323a0b41e1ebfa80171457fd901d26db22f0c"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 98,
+      "sha256": "87efb521099d6f9e000e8b4a4f13938506abd6e0b5e7ea7d18d8f08be4f4c97b"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 491,
+      "sha256": "985f3543e751268f788b061af13e0e9643a4cf33f937255e537641946e24aeea"
+    },
+    {
+      "path": "social-preview.png",
+      "bytes": 59677,
+      "sha256": "b620c65aab7798e46240936fc9b0b58beea96d520c92ec007fe2be9d23b53a5e"
+    }
+  ]
+}

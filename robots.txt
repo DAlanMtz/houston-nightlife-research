@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://DAlanMtz.github.io/houston-nightlife-research/sitemap.xml

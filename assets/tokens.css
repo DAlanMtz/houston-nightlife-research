@@ -1,0 +1,68 @@
+/* Houston After Dark — design tokens for the publication prototype.
+   These are the single source of truth for colour, type, spacing and measure.
+   Quarto/Typst can mirror these values in SCSS or a theme file. */
+
+:root {
+  /* Colour — measured against paper (#F7F2E8) and navy (#0B1522) */
+  --color-navy: #0B1522;
+  --color-navy-raised: #132234;
+  --color-paper: #F7F2E8;
+  --color-paper-deep: #EFE8DA;
+  --color-paper-raised: #FCF8F0;
+  --color-ink: #14202C;          /* 14.8:1 on paper */
+  --color-ink-muted: #5A6470;    /* 5.4:1 on paper */
+  --color-accent: #B4653A;       /* 3.9:1 — graphics and large text only */
+  --color-accent-text: #8A4A26;  /* 6.1:1 — links and small accent text */
+  --color-accent-soft: #C98F63;  /* 5.97:1 with ink — secondary fills with text */
+  --color-compare: #2C6B66;      /* 5.5:1 on paper */
+  --color-context: #D8BD93;      /* fill only on paper; 10.2:1 on navy */
+  --color-on-navy: #F7F2E8;
+  --color-on-navy-muted: #A8B4C2;/* 8.7:1 on navy */
+  --color-on-navy-accent: #D08A5F;/* 6.5:1 on navy */
+  --color-rule: #D9D2C4;
+  --color-no-data: #E8E0D2;
+  --color-rule-light: #E7E0D2;
+  --color-unknown: #8A929B;      /* neutral for cells with no evidence */
+
+  /* Type */
+  --font-serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --text-xs: 0.6875rem;   /* 11px — labels, source lines */
+  --text-sm: 0.8125rem;   /* 13px — captions, tables */
+  --text-base: 1.0625rem; /* 17px — body */
+  --text-lede: clamp(1.1875rem, 1.05rem + 0.55vw, 1.375rem);
+  --text-h3: clamp(1.1875rem, 1.08rem + 0.45vw, 1.375rem);
+  --text-h2: clamp(1.5rem, 1.25rem + 1.1vw, 2.125rem);
+  --text-chapter: clamp(2.5rem, 1.55rem + 4.2vw, 4.9rem);
+  --text-cover: clamp(3.5rem, 1.7rem + 8vw, 7.4rem);
+  --text-stat: clamp(1.6rem, 1.25rem + 1.4vw, 2.35rem);
+
+  --leading-body: 1.68;
+  --leading-tight: 1.12;
+  --leading-display: 0.94;
+
+  /* Space and layout */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  --page-max: 1180px;
+  --content-max: 808px;
+  --measure: 66ch;
+  --gutter: clamp(1.125rem, 4vw, 2.5rem);
+  --note-width: 220px;
+  --radius: 2px;
+
+  --rule-hair: 1px solid var(--color-rule);
+  --rule-strong: 2px solid var(--color-ink);
+  --focus: 2px solid var(--color-accent-text);
+}

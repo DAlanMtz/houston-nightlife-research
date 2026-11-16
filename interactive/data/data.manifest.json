@@ -1,0 +1,31 @@
+{
+  "generated": "2026-11-11",
+  "years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "ch3_years": 13,
+  "ch4_districts": 73,
+  "ch4_no_data_polygons": 15,
+  "ch6_total": 8445,
+  "ch6_modes": {
+    "final": 8445,
+    "classified": 2684,
+    "competing": 2668
+  },
+  "sha256": {
+    "data.json": "fc554d27527d955ac0ef420ce81281fee38f4ad66104ee899adeed02c76147bf",
+    "data.js": "7c7697d0b7dbab2efcff3d107604aa544cb23688348cdd6c7fe6428977f5fdce"
+  }
+}
